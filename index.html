@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guled Elyas</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            overflow: hidden; /* Hide overflow to prevent horizontal scrolling */
+            background: linear-gradient(135deg, #ececec, #ececec); /* Gradient background */
+            animation: animateBackground 10s ease infinite; /* Apply animation to the background */
+        }
+
+        @keyframes animateBackground {
+            0% { background-position: 0% 0%; } /* Initial position */
+            100% { background-position: 100% 100%; } /* Final position */
+        }
+
+        h1 {
+            margin: 0;
+            font-family: 'Helvetica Neue', sans-serif;
+            font-size: 24px;
+            color: rgb(0, 0, 0); /* Set text color to white */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%); /* Center the text horizontally and vertically */
+            z-index: 1; /* Ensure the text appears above the background animation */
+        }
+
+        a {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            text-decoration: none;
+            color: rgb(0, 0, 0); /* Set link color to white */
+            font-size: 14px;
+            z-index: 1; /* Ensure the link appears above the background animation */
+        }
+
+        a:hover {
+            color: #ff0000; /* Hovering effect on text */
+        }
+    </style>
+</head>
+<body>
+    <h1>Guled Elyas</h1>
+    <a href="cv.html">CV</a>
+</body>
+</html>
